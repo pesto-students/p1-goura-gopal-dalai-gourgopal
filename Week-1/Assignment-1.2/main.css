@@ -1,0 +1,105 @@
+body {
+    font-family: 'Lato';
+}
+
+.sidenav {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 2.2rem 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #111;
+}
+  
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(74, 124, 165);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar div {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 5%;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.navbar div:hover, .player-btn .btn:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.main {
+  margin-left: 60px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  margin-bottom: 30px;
+} 
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-weight: bold;
+}
+
+td, th {
+  border: 1px solid transparent;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+table a {
+  text-decoration: none;
+}
+
+.player-btn div {
+  float: left;
+  display: block;
+  padding: 14px 16px;
+}
+
+.player {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  width: 100%;
+}
+.player div {
+  color: #f2f2f2;
+}
+
+button {
+  background-color: white;
+  color: blue;
+}
+
+.la-btn {
+  padding-top: 45px !important;
+}
